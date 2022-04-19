@@ -18,10 +18,14 @@
         <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/recipe.xml" value="0.3515625" />
         <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/recipe_activity.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/snacks_activity.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/malor/IdeaProjects/hashimotoIP/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/malor/IdeaProjects/hashimotoIP/app/src/main/res/layout/breakfast_activity.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/malor/IdeaProjects/hashimotoIP/app/src/main/res/layout/check_food_activity.xml" value="0.2" />
+        <entry key="..\:/Users/malor/IdeaProjects/hashimotoIP/app/src/main/res/layout/recipe_activity.xml" value="0.18541666666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

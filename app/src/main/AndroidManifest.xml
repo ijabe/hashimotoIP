@@ -10,6 +10,21 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Hashimoto">
         <activity
+                android:name=".SnacksActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".DinnerActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".BreakfastActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".RecipeActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".CheckFoodActivity"
+                android:exported="true"/>
+        <activity
                 android:name=".MainActivity"
                 android:exported="true">
             <intent-filter>
