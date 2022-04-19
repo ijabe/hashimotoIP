@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/green_rectangle.xml" value="0.36875" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.36875" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/plus.xml" value="0.36875" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/rectangle.xml" value="0.36875" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/red_ractangle.xml" value="0.36875" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/round_button.xml" value="0.36875" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/yellow_rectangle.xml" value="0.36875" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/CheckFood.xml" value="0.3515625" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/breakfast_activity.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/check_food.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/dinner_activity.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/recipe.xml" value="0.3515625" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/recipe_activity.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/layout/snacks_activity.xml" value="0.19739583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

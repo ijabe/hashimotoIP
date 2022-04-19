@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:backgroundTint="#F0D9D7"
+        android:background="#F0D9D7">
+
+    <Button
+            android:text="PRZEPISY"
+            android:layout_width="329dp"
+            android:layout_height="50dp" android:id="@+id/bRecipes"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.903"
+            app:strokeColor="#D28B87" app:rippleColor="#E1B1AF" android:backgroundTint="#E1B1AF"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="bold"/>
+    <Button
+            android:text="SPRAWDŹ POSIŁEK"
+            android:layout_width="329dp"
+            android:layout_height="50dp" android:id="@+id/bCheckFood"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.703"
+            app:strokeColor="#D28B87" app:rippleColor="#E1B1AF" android:backgroundTint="#E1B1AF"
+            android:fontFamily="sans-serif-thin" android:textStyle="bold"/>
+    <Button
+            android:text="BADANIA KRWI"
+            android:layout_width="329dp"
+            android:layout_height="50dp" android:id="@+id/bBlood"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.803"
+            app:strokeColor="#D28B87" app:rippleColor="#E1B1AF" android:backgroundTint="#E1B1AF"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="bold"/>
+    <ImageView
+            android:layout_width="202dp"
+            android:layout_height="287dp" app:srcCompat="@drawable/thyroid" android:id="@+id/IVthyroid"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.441" app:layout_constraintHorizontal_bias="0.497"/>
+    <FrameLayout
+            android:layout_width="329dp"
+            android:layout_height="153dp"
+            android:background="@drawable/rectangle"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/IVthyroid"
+            >
+        <TextView
+                android:text="Cześć!"
+                android:layout_width="match_parent"
+                android:layout_height="75dp" android:id="@+id/TVhello" android:gravity="center"
+                android:textSize="60sp" android:fontFamily="sans-serif-thin" android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+        <TextView
+                android:text="Sprawdzaj jakość swoich posiłków i znajduj nowe przepisy, które pomogą Twojej tarczycy w walce z Hashimoto."
+                android:layout_width="match_parent"
+                android:layout_height="142dp" android:id="@+id/TVopis"
+                android:gravity="bottom|center"
+                android:textColor="#FFFFFF" android:fontFamily="sans-serif-light" android:textSize="16sp"
+                android:textStyle="normal"/>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
