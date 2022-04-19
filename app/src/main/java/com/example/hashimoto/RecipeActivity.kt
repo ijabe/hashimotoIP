@@ -10,10 +10,10 @@ class RecipeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.recipe_activity)
 
-        val bSniadaniaPrzepisy =findViewById<Button>(R.id.bSniadaniaPrzepisy)
-        val bObiadyPrzepisy =findViewById<Button>(R.id.bObiadyPrzepisy)
+        val bSniadaniaPrzepisy =findViewById<Button>(R.id.bRecipeBreakfast)
+        val bObiadyPrzepisy =findViewById<Button>(R.id.bRecipeDinner)
        // val bDeseryPrzepisy =findViewById<Button>(R.id.bDeseryPrzepisy)
-        val bPrzekaskiPrzepisyepisy =findViewById<Button>(R.id.bPrzekaskiPrzepisy)
+        val bPrzekaskiPrzepisyepisy =findViewById<Button>(R.id.bRecipeDinner)
 
 
         bSniadaniaPrzepisy.setOnClickListener{
