@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:backgroundTint="#F0D9D7"
@@ -14,14 +15,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/llPrzepisyGuziki"
+            app:layout_constraintBottom_toTopOf="@+id/llRecipeButtons"
 
-            android:id="@+id/flPrzepisy">
+            android:id="@+id/flRecipe">
         <TextView
                 android:text="Przepisy"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
-                android:id="@+id/tvRecipe"
+                android:id="@+id/tvTitleRecipe"
                 android:gravity="center"
                 android:textSize="60sp"
                 android:fontFamily="sans-serif-thin"
@@ -31,7 +32,7 @@
                 android:text="Znajduj nowe przepisy i dziel się swoimi sprawdzonymi przepisami z innymi."
                 android:layout_width="match_parent"
                 android:layout_height="142dp"
-                android:id="@+id/tvOpisRecipe"
+                android:id="@+id/tvDesRecipe"
                 android:gravity="bottom|center"
                 android:textColor="#FFFFFF"
                 android:fontFamily="sans-serif-light"
@@ -42,11 +43,11 @@
             android:orientation="vertical"
             android:layout_width="409dp"
             android:layout_height="564dp"
-            android:id="@+id/llPrzepisyGuziki"
+            android:id="@+id/llRecipeButtons"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/flPrzepisy">
+            app:layout_constraintTop_toBottomOf="@+id/flRecipe">
         <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="129dp"
@@ -57,7 +58,7 @@
                 android:text="ŚNIADANIA I KOLACJE"
                 android:layout_width="329dp"
                 android:layout_height="50dp"
-                android:id="@+id/bSniadaniaPrzepisy"
+                android:id="@+id/bRecipeBreakfast"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -69,26 +70,28 @@
                 android:fontFamily="sans-serif-thin"
                 android:textStyle="bold"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="40dp" android:clickable="true"/>
+                android:layout_marginLeft="40dp"
+                android:clickable="true"/>
         <Button
                 android:text="OBIADY"
                 android:layout_width="329dp"
                 android:layout_height="50dp"
-                android:id="@+id/bObiadyPrzepisy"
+                android:id="@+id/bRecipeDinner"
                 app:strokeColor="#D28B87"
                 app:rippleColor="#E1B1AF"
                 android:backgroundTint="#E1B1AF"
                 android:fontFamily="sans-serif-thin"
                 android:textStyle="bold"
                 android:layout_marginTop="12dp"
-                android:layout_marginLeft="40dp" android:clickable="true"/>
+                android:layout_marginLeft="40dp"
+                android:clickable="true"/>
 
 
         <Button
                 android:text="DESERY"
                 android:layout_width="329dp"
                 android:layout_height="50dp"
-                android:id="@+id/bDeseryPrzepisy"
+                android:id="@+id/bRecipeDessert"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -101,12 +104,13 @@
                 android:fontFamily="sans-serif-thin"
                 android:textStyle="bold"
                 android:layout_marginTop="12dp"
-                android:layout_marginLeft="40dp" android:clickable="true"/>
+                android:layout_marginLeft="40dp"
+                android:clickable="true"/>
         <Button
                 android:text="PRZEKĄSKI"
                 android:layout_width="329dp"
                 android:layout_height="50dp"
-                android:id="@+id/bPrzekaskiPrzepisy"
+                android:id="@+id/bRecipeSnacks"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
