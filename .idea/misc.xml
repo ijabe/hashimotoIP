@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jakub/Desktop/IP/hashimotoIP/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Users/Jakub/Desktop/IP/hashimotoIP/app/src/main/res/layout/breakfast_activity.xml" value="0.259375" />
+        <entry key="..\:/Users/Jakub/Desktop/IP/hashimotoIP/app/src/main/res/layout/check_food_activity.xml" value="0.259375" />
+        <entry key="..\:/Users/Jakub/Desktop/IP/hashimotoIP/app/src/main/res/layout/dinner_activity.xml" value="0.259375" />
+        <entry key="..\:/Users/Jakub/Desktop/IP/hashimotoIP/app/src/main/res/layout/recipe_activity.xml" value="0.259375" />
+        <entry key="..\:/Users/Jakub/Desktop/IP/hashimotoIP/app/src/main/res/layout/recipe_item.xml" value="0.259375" />
+        <entry key="..\:/Users/Jakub/Desktop/IP/hashimotoIP/app/src/main/res/layout/recipe_list_item.xml" value="0.259375" />
+        <entry key="..\:/Users/Jakub/Desktop/IP/hashimotoIP/app/src/main/res/layout/snacks_activity.xml" value="0.259375" />
         <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/green_rectangle.xml" value="0.36875" />
         <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.36875" />
         <entry key="..\:/Users/Pc/Desktop/SEMESTR 1 S2/IP/Projekt1/app/src/main/res/drawable/plus.xml" value="0.36875" />
