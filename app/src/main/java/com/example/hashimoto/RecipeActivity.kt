@@ -2,6 +2,7 @@ package com.example.hashimoto
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 
@@ -13,9 +14,9 @@ class RecipeActivity : AppCompatActivity() {
 
 
 
-        val bThaiSoup =findViewById<CardView>(R.id.cvBreakfastRecipeItem)
-        val bCurry =findViewById<CardView>(R.id.cvBreakfastRecipeItem1)
-        val bFish = findViewById<CardView>(R.id.cvBreakfastRecipeItem2)
+        val bThaiSoup =findViewById<TextView>(R.id.tvTitleRecipe1)
+        val bCurry =findViewById<TextView>(R.id.tvTitleRecipe2)
+        val bFish = findViewById<TextView>(R.id.tvTitleRecipe3)
         bThaiSoup.setOnClickListener{
             val intent = Intent(this, ThaiActivity::class.java)
             startActivity(intent)
