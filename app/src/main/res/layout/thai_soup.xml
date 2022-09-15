@@ -63,7 +63,7 @@
                     >
 
                 <TextView
-                        android:text="Ryba w papilocie"
+                        android:text="Tajska zupa z dyni"
                         android:layout_width="match_parent"
                         android:layout_height="75dp"
                         android:id="@+id/tvTitleKurczakCurry"
@@ -76,14 +76,35 @@
 
             </FrameLayout>
 
-               <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/ivRecipeImage"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:scaleType="centerCrop"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/flKurczakCurry"/>
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/cvBreakfastRecipeItem1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ivRecipeImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tajskazupazdyni"/>
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/scrim"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/scrim" />
+
+
+            </androidx.cardview.widget.CardView>
 
             <TextView
                     android:text="SKŁADNIKI"
@@ -93,42 +114,42 @@
                     android:textSize="20sp"/>
 
             <TextView
-                    android:text="ziemniak (1 sztuka)"
+                    android:text="puree z dyni (300g)"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView2"
                     android:textSize="16sp"/>
 
             <TextView
-                    android:text="żółta papryka (0,25 sztuki)"
+                    android:text="pomidor (1 sztuka)"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView3"
                     android:textSize="16sp"/>
 
             <TextView
-                    android:text="marchewka (1 sztuka)"
+                    android:text="cebula szalotka (1 sztuka)"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView4"
                     android:textSize="16sp"/>
 
             <TextView
-                    android:text="różyczki kalafiora (kilka sztuk)"
+                    android:text="czosnek (2 sztuki)"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView5"
                     android:textSize="16sp"/>
 
             <TextView
-                    android:text="filet z dorsza lub halibuta (0,5 sztuki)"
+                    android:text="świeży imbir (5 cm)"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView6"
                     android:textSize="16sp"/>
 
             <TextView
-                    android:text="oliwa z oliwek (1 łyżka)"
+                    android:text="mleczko kokosowe (5 łyżek)"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView8"
@@ -143,53 +164,41 @@
                     android:textSize="20sp"/>
 
             <TextView
-                    android:text="1. Ziemniaka obierz i pokrój w grube plastry. Gotuj przez około 6 minut (muszą być miękkie, ale nie rozpadające się) i ostudź."
+                    android:text="1. Dynię wydrąż, pokrój na kawałki i upiecz w piekarniku w 180 stopniach C. Wystudzoną dynię zblenduj na puree."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView18"
                     android:textSize="16sp"/>
 
             <TextView
-                    android:text="2. Cytrynę pokrój w plasterki. Pomidorki koktajlowe przekrój na połówki, a marchewkę i paprykę w kostkę."
+                    android:text="2. W garnku rozpuść olej kokosowy, dodaj liście kafiru, płatki chili, obrany i pokrojony w plastry imbir, czosnek, posiekaną cebulę – smaż przez 1 minutę."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView19"
                     android:textSize="16sp"/>
 
             <TextView
-                    android:text="3. Wszystkie składniki przełóż do miski."
+                    android:text="3. Dodaj pokrojonego pomidora, wymieszaj i po minucie dodaj mleczko kokosowe. Przykryj garnek i gotuj na małym ogniu przez ok. 20 minut."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView20"
                     android:textSize="16sp"/>
 
             <TextView
-                    android:text="4. Dodaj rybę i skrop oliwą."
+                    android:text="4. Przecedź całość przez sito i połącz z puree dyniowym. Podgrzewaj jeszcze przez 5 minut."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView21"
                     android:textSize="16sp"/>
 
             <TextView
-                    android:text="5. Dopraw solą i pieprzem i delikatnie wymieszaj."
+                    android:text="5. Dodaj soli, wymieszaj. Na talerzu posyp świeżą kolendrą."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView22"
                     android:textSize="16sp"/>
 
-            <TextView
-                    android:text="6. Przełóż na arkusz pergaminu i dokładnie zawiń."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView23"
-                    android:textSize="16sp"/>
 
-            <TextView
-                    android:text="7. Piekarnik rozgrzej do 200 st. C. Wstaw rybę w papilocie i piecz 18-20 minut."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView24"
-                    android:textSize="16sp"/>
 
 
 
