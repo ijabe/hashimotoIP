@@ -8,10 +8,6 @@
     android:background="#F0D9D7">
 
 
-
-
-
-
     <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -57,8 +53,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     android:id="@+id/flKurczakCurry"
-
-                    >
+                    android:layout_marginBottom="10dp">
 
                 <TextView
                         android:text="Ryba w papilocie"
@@ -109,7 +104,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView7"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
 
             <TextView
                     android:text="ziemniak (1 sztuka)"
@@ -159,7 +155,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView17"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
 
             <TextView
                     android:text="1. Ziemniaka obierz i pokrój w grube plastry. Gotuj przez około 6 minut (muszą być miękkie, ale nie rozpadające się) i ostudź."

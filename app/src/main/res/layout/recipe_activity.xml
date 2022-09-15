@@ -16,6 +16,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/llrecipell"
             android:id="@+id/flBreakfast">
 
         <TextView
@@ -50,7 +51,8 @@
             app:layout_constraintTop_toBottomOf="@+id/flBreakfast"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent">
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/llrecipell">
         <androidx.cardview.widget.CardView
                 android:id="@+id/cvBreakfastRecipeItem"
                 android:layout_width="match_parent"
