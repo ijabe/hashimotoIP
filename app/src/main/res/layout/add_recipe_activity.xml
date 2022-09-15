@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:backgroundTint="#F0D9D7"
+    android:background="#F0D9D7">
+
+    <FrameLayout
+            android:layout_width="329dp"
+            android:layout_height="153dp"
+            android:background="@drawable/rectangle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/flAddRecipe"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toTopOf="@+id/llAddRecipe">
+
+        <TextView
+                android:text="Dodaj składniki"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/tvTitleAddRecipe"
+                android:gravity="center"
+                android:textSize="34sp"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:text="Dodaj składniki posiłku."
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:id="@+id/tvAddIngredients"
+                android:gravity="bottom|center"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-light"
+                android:textSize="16sp"
+                android:textStyle="normal"/>
+    </FrameLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="409dp"
+            android:layout_height="400dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/flAddRecipe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/llAddRecipe"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="266dp"
+            app:layout_constraintVertical_bias="0.3">
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/etCheckIngredient"
+                android:hint="Wpisz składnik"
+                android:inputType="text"/>
+
+        <Button
+                android:text="Dodaj składnik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bAddIngredient"
+                android:backgroundTint="#E1B1AF"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

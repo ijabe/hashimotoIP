@@ -7,124 +7,52 @@
         android:layout_height="match_parent"
         android:backgroundTint="#F0D9D7"
         android:background="#F0D9D7">
+
     <FrameLayout
             android:layout_width="329dp"
             android:layout_height="153dp"
             android:background="@drawable/rectangle"
             android:layout_marginTop="12dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/llRecipeButtons"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/rvRecipes"
+            android:id="@+id/flBreakfast">
 
-            android:id="@+id/flRecipe">
         <TextView
                 android:text="Przepisy"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
-                android:id="@+id/tvTitleRecipe"
+                android:id="@+id/tvTitleBreakfast"
                 android:gravity="center"
-                android:textSize="60sp"
+                android:textSize="34sp"
                 android:fontFamily="sans-serif-thin"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"/>
+
         <TextView
-                android:text="Znajduj nowe przepisy i dziel się swoimi sprawdzonymi przepisami z innymi."
+                android:text="Znajdź przepis na posiłek."
                 android:layout_width="match_parent"
-                android:layout_height="142dp"
-                android:id="@+id/tvDesRecipe"
+                android:layout_height="112dp"
+                android:id="@+id/tvDesBreakast"
                 android:gravity="bottom|center"
                 android:textColor="#FFFFFF"
                 android:fontFamily="sans-serif-light"
                 android:textSize="16sp"
-                android:textStyle="normal"/>
+                android:textStyle="normal"
+                />
+
     </FrameLayout>
-    <LinearLayout
-            android:orientation="vertical"
+
+    <androidx.recyclerview.widget.RecyclerView
             android:layout_width="409dp"
-            android:layout_height="564dp"
-            android:id="@+id/llRecipeButtons"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/flBreakfast"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/flRecipe">
-        <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="129dp"
-                app:srcCompat="@drawable/chef"
-                android:id="@+id/ivChef"
-        android:layout_marginTop="20dp"/>
-        <Button
-                android:text="ŚNIADANIA I KOLACJE"
-                android:layout_width="329dp"
-                android:layout_height="50dp"
-                android:id="@+id/bRecipeBreakfast"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintVertical_bias="0.903"
-                app:strokeColor="#D28B87"
-                app:rippleColor="#E1B1AF"
-                android:backgroundTint="#E1B1AF"
-                android:fontFamily="sans-serif-thin"
-                android:textStyle="bold"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="40dp"
-                android:clickable="true"/>
-        <Button
-                android:text="OBIADY"
-                android:layout_width="329dp"
-                android:layout_height="50dp"
-                android:id="@+id/bRecipeDinner"
-                app:strokeColor="#D28B87"
-                app:rippleColor="#E1B1AF"
-                android:backgroundTint="#E1B1AF"
-                android:fontFamily="sans-serif-thin"
-                android:textStyle="bold"
-                android:layout_marginTop="12dp"
-                android:layout_marginLeft="40dp"
-                android:clickable="true"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="12dp"
+            android:id="@+id/rvRecipes"
+            tools:listitem="@layout/recipe_list_item"/>
 
-
-        <Button
-                android:text="DESERY"
-                android:layout_width="329dp"
-                android:layout_height="50dp"
-                android:id="@+id/bRecipeDessert"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintVertical_bias="0.803"
-                app:strokeColor="#D28B87"
-                app:rippleColor="#E1B1AF"
-                android:backgroundTint="#E1B1AF"
-                android:fontFamily="sans-serif-thin"
-                android:textStyle="bold"
-                android:layout_marginTop="12dp"
-                android:layout_marginLeft="40dp"
-                android:clickable="true"/>
-        <Button
-                android:text="PRZEKĄSKI"
-                android:layout_width="329dp"
-                android:layout_height="50dp"
-                android:id="@+id/bRecipeSnacks"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintVertical_bias="0.803"
-                app:strokeColor="#D28B87"
-                app:rippleColor="#E1B1AF"
-                android:backgroundTint="#E1B1AF"
-                android:fontFamily="sans-serif-thin"
-                android:textStyle="bold"
-                android:layout_marginTop="12dp"
-                android:layout_marginLeft="40dp"
-                android:clickable="true"/>
-
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
